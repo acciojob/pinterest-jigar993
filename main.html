@@ -1,27 +1,60 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Hero Section</title>
+
+    <style>
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            gap: 30px;
+            background-color: #f0f8ff;
+        }
+
+        .hero img {
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .hero-content h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            margin: 10px 0 20px;
+        }
+
+        .hero-content a {
+            padding: 10px 18px;
+            background-color: #008060;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+
 </head>
-
 <body>
-	<div class="container">
-		<h1>Problem Statement: Create a Pinterest-like Hero Section</h1
 
-	 <p>Your task is to create a hero section similar to that of Pinterest using the box model in CSS. You will need to follow the guidelines and specifications given below:
+    <div class="hero">
+        
+        <img src="https://images.unsplash.com/photo-1503264116251-35a269479413" alt="Hero Image">
 
-</p>	
-		<img src="https://storage.googleapis.com/acciojob-open-file-collections/pinterest.png">
-		
-	</div>
-	
-	
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+        <div class="hero-content">
+            <h1>Welcome to the Adventure</h1>
+            <p>Discover new places, ideas, and experiences like never before.</p>
+            <a href="#">Explore Now</a>
+        </div>
+
+    </div>
 
 </body>
-
 </html>
+
